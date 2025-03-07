@@ -402,5 +402,4 @@ def dict_to_csv(fn, csv_dict):
     import pandas as pd
 
     df = pd.DataFrame(data=csv_dict)
-    print(df)
     df.to_csv(fn)
